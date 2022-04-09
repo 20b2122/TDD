@@ -11,10 +11,13 @@ Coding for a subset of the payment unit and how to perform test driven develomen
 cloning repository [github](https://github.com/amigoscode/software-testing)
 - can use command prompt or download zip.
 
+---
+
 ### Lets starts with an empty test class
 1. create a new package inside the test folder, name it **utils**
 2. create class inside of utils, **PhoneNumberValidatorTest**
 
+---
 
 ### Lets create the class under underTest
 
@@ -49,6 +52,7 @@ class PhoneNumberValidatorTest {
 
 ```
 
+---
 
 ### Bare Bones of Class Under Test
 
@@ -93,6 +97,7 @@ public class PhoneNumberValidator implements Predicate<String> {
 
 ```
 
+---
 
 ### Lets Impliment The Business Logic
 
